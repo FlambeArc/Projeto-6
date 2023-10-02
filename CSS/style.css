@@ -124,3 +124,82 @@ nav.desktop a{
     line-height: 44px;
     border-radius: 20px;
 }
+
+.chamada-planos{
+    width: 100%;
+    text-align: center;
+    padding: 27px 2%;
+    background: rgb(220, 220, 220);
+}
+
+.chamada-planos h2{
+    display: inline-block;
+    border: 2px solid #2692FF;
+    color: #2692FF;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.box-planos{
+    padding: 40px 0;
+}
+
+.box-planos > .center{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-planos-single{
+    width: 33.3%;
+    padding: 0 70px;
+}
+
+.planos-wraper{
+    width: 100%;
+    border: 1px solid #ccc;
+    min-height: 300px;
+    -webkit-box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+}
+
+.box-planos-single h2{
+    background: #2692FF;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-weight: lighter;
+}
+
+.pontos-plano{
+    padding: 8px 0 15px 0;
+}
+
+.preço{
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+.preço h2{
+    border-top: 1px solid #ccc;
+    display: inline-block;
+    font-size: 24px;
+    color: #777;
+    background-color: transparent;
+    padding: 0 35px;
+}
+
+.box-planos-single p{
+    color: #777777;
+    font-size: 17px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:1010px){
+    .box-planos-single{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
